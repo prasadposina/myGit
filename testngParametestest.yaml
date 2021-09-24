@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+parameters: { browser: chrome, url: http://www.google.com }
+tests:
+  - name: Test
+  classes:
+    - Parameters.ParametersTwo
+
